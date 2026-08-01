@@ -85,10 +85,10 @@ npm run dev
 ---
 
 ## 📸 Preview
+<img width="1920" height="1080" alt="Screenshot (810)" src="https://github.com/user-attachments/assets/af93ea88-ec3e-4680-bebf-1de8573161f0" />
 
-<img width="1920" height="1080" alt="Screenshot (810)" src="https://github.com/user-attachments/assets/3cabe001-c458-4d49-9eda-31348746119e" />
-----------
-<img width="1920" height="1080" alt="Screenshot (811)" src="https://github.com/user-attachments/assets/226c1809-eb63-4880-8a0a-230d194f42f7" />
+------
+<img width="1920" height="1080" alt="Screenshot (811)" src="https://github.com/user-attachments/assets/0d4b7838-bed4-434f-9135-3c31ac50ecab" />
 
 ## 🎯 Learning Outcomes
 
@@ -120,4 +120,3 @@ This project helped practice:
 **Nadia Yousaf**
 
 If you found this project helpful, consider giving it a ⭐ on GitHub.
->>>>>>> 59239210b43fd656ed3f9ce0b30ae04eeb4ef193
