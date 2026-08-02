@@ -129,7 +129,7 @@ function Intern() {
             <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#E8C87A] to-[#B4872F] shadow-lg ring-1 ring-[#8A6A1C]/40">
               <span className="text-2xl">🔖</span>
             </div>
-            <h1 className="font-serif text-6xl font-light tracking-wide text-[#3B1C32]">
+            <h1 className="font-serif text-black text-6xl font-light tracking-wide text-[#3B1C32]">
               Intern Vault
             </h1>
             <p className="mt-2 text-sm uppercase tracking-[0.25em] text-[#8A5A6E]">

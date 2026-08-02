@@ -34,7 +34,7 @@ function Signup({ onSwitchToLogin }: { onSwitchToLogin: () => void }) {
             <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#E8C87A] to-[#B4872F] shadow-lg ring-1 ring-[#8A6A1C]/40">
               <span className="text-2xl">✨</span>
             </div>
-            <h1 className="font-serif text-4xl font-light tracking-wide text-[#3B1C32]">
+            <h1 className="font-serif text-4xl text-black font-light tracking-wide text-[#3B1C32]">
               Join the Vault
             </h1>
             <p className="mt-2 text-sm uppercase tracking-[0.2em] text-[#8A5A6E]">
