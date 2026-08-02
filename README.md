@@ -1,82 +1,121 @@
 
 # 📚 Intern Vault
 
-Intern Vault is a **React + TypeScript** application designed to organize and manage internship resources in one place. It allows users to add, edit, delete, and store useful learning materials, making it easier to keep track of courses, articles, documentation, and reference links.
+Intern Vault is a **full-stack resource management application** built with **React, TypeScript, Tailwind CSS, and Supabase**. It helps interns and learners organize, manage, and access important learning resources in one place.
+
+The application supports complete **CRUD (Create, Read, Update, Delete)** functionality with a PostgreSQL database powered by Supabase and is deployed on **Vercel**.
 
 ---
 
-## ✨ Features
+# 🌐 Live Demo
+
+**🔗 Live Website:**
+[https://internvault-app.vercel.app/](https://internvault-app.vercel.app/)
+
+---
+
+# ✨ Features
 
 * ➕ Add new resources
 * ✏️ Edit existing resources
 * 🗑️ Delete resources
-* 💾 Local Storage support (data persists after refresh)
-* 📅 Store resource date
+* 💾 Store data permanently using Supabase
+* 📅 Save resource dates
 * 🏷️ Organize resources by category
-* 🔗 Save useful links
-* 📱 Responsive and clean UI
-* ⚡ Built with React Hooks
+* 🔗 Save documentation, YouTube videos, GitHub repositories, and useful links
+* 📱 Fully responsive UI
+* 🎨 Modern premium interface with Tailwind CSS
+* ⚡ Fast performance with Vite
+* ☁️ Deployed on Vercel
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
+
+### Frontend
 
 * React
 * TypeScript
-* Vite
-* CSS
 * Tailwind CSS
+* Vite
+
+### Backend
+
+* Supabase
+* PostgreSQL Database
+
+### Deployment
+
+* Vercel
+
+### Version Control
+
+* Git
+* GitHub
 
 ---
 
-## 📚 Concepts Practiced
+# 📚 Concepts Practiced
 
 * React Components
 * useState Hook
-* Controlled Forms
 * CRUD Operations
+* Controlled Forms
 * Conditional Rendering
 * Event Handling
 * TypeScript Interfaces
-* Array Methods
-* Local Storage
+* Supabase Integration
+* PostgreSQL Database
+* Environment Variables
+* Git & GitHub Workflow
+* Vercel Deployment
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 src/
-│── components/
+│── component/
+│── services/
+│     └── supabase.ts
 │── types/
 │── App.tsx
-│── App.css
 │── main.tsx
 ```
 
 ---
 
-## 🚀 Getting Started
+# ⚙️ Installation
 
-### Clone the repository
-
-```bash
-git clone https://github.com/your-username/intern-vault.git
-```
-
-### Navigate to the project
+### Clone Repository
 
 ```bash
-cd intern-vault
+git clone https://github.com/Nadiayousaf/Intern_Vault.git
 ```
 
-### Install dependencies
+### Navigate into Project
+
+```bash
+cd Intern_Vault
+```
+
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Start the development server
+### Create Environment Variables
+
+Create a `.env` file in the project root.
+
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+### Run Development Server
 
 ```bash
 npm run dev
@@ -84,39 +123,88 @@ npm run dev
 
 ---
 
-## 📸 Preview
-<img width="1920" height="1080" alt="Screenshot (810)" src="https://github.com/user-attachments/assets/af93ea88-ec3e-4680-bebf-1de8573161f0" />
+# 🗄️ Database Schema
 
-------
-<img width="1920" height="1080" alt="Screenshot (811)" src="https://github.com/user-attachments/assets/0d4b7838-bed4-434f-9135-3c31ac50ecab" />
+Table Name:
 
-## 🎯 Learning Outcomes
+```text
+resources
+```
 
-This project helped practice:
-
-* React State Management
-* TypeScript Fundamentals
-* CRUD Functionality
-* Form Handling
-* Component-Based Architecture
-
----
-
-## 🔮 Future Improvements
-
-* Search resources
-* Filter by category
-* Sort by date
-* Dark/Light mode
-* Resource favorites
-* Export and import data
-* Backend integration with Supabase
-* User authentication
+| Column      | Type        |
+| ----------- | ----------- |
+| id          | int8        |
+| title       | text        |
+| category    | text        |
+| date        | date        |
+| description | text        |
+| link        | text        |
+| created_at  | timestamptz |
 
 ---
 
-## 👩‍💻 Author
+# 📸 Project Preview
 
-**Nadia Yousaf**
+<img width="1920" height="927" alt="Screenshot (827)" src="https://github.com/user-attachments/assets/7cec2968-4a1a-4003-86df-520f8c0e4a0d" />
+-----
+<img width="1920" height="952" alt="Screenshot (828)" src="https://github.com/user-attachments/assets/41d6babb-4001-4405-a471-535f16b2eb9c" />
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+---
+
+# 🚀 Deployment
+
+This project is deployed on **Vercel**.
+
+**Live URL**
+
+```text
+https://internvault-app.vercel.app/
+```
+
+---
+
+# 🎯 Learning Outcomes
+
+This project helped me gain practical experience with:
+
+* Building scalable React applications
+* TypeScript fundamentals
+* Tailwind CSS UI development
+* Database integration using Supabase
+* PostgreSQL CRUD operations
+* Environment Variables
+* Git & GitHub workflow
+* Vercel deployment
+* Production-ready application setup
+
+---
+
+# 🔮 Future Improvements
+
+* 🔍 Search Resources
+* 🏷️ Category Filters
+* 📊 Dashboard Statistics
+* 🌙 Dark / Light Mode
+* ⭐ Favorite Resources
+* 🔐 Supabase Authentication
+* 👤 User-specific Resources
+* 📤 Export Resources
+* 📥 Import Resources
+* 🔔 Toast Notifications
+* 🎬 Smooth Animations
+* 📱 Progressive Web App (PWA)
+
+---
+
+# 👩‍💻 Author
+
+## Nadia Yousaf
+
+### Connect With Me
+
+* GitHub: [https://github.com/Nadiayousaf](https://github.com/Nadiayousaf)
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub.
+
